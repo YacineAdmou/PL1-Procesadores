@@ -12,22 +12,22 @@ import java.util.Map;
 import java.util.Set;
 
 public class AFD {
-    private final int[][] transitions;       // matriz de transiciones
-    private final Set<Integer> finalStates;  // estados de aceptación
+    private final int[][] transiciones;       // matriz de transiciones
+    private final Set<Integer> estadosFinales;  // estados de aceptación
     private final Map<Character,Integer> sigma; // alfabeto (caracter → columna)
 
-    public AFD(int[][] transitions, Set<Integer> finalStates, Map<Character,Integer> sigma) {
-        this.transitions = transitions;
-        this.finalStates = finalStates;
+    public AFD(int[][]transiciones, Set<Integer> estadosFinales, Map<Character,Integer> sigma) {
+        this.transiciones = transiciones;
+        this.estadosFinales = estadosFinales;
         this.sigma = sigma;
     }
 
-    public int[][] getTransitions() {
-        return transitions;
+    public int[][] getTransiciones() {
+        return transiciones;
     }
 
     public Set<Integer> getFinalStates() {
-        return finalStates;
+        return estadosFinales;
     }
 
     public Map<Character,Integer> getSigma() {
