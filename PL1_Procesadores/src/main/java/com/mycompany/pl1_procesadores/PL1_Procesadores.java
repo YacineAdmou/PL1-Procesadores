@@ -120,36 +120,3 @@ public class PL1_Procesadores {
         sc.close();
     }
 }
-
-// ================= CLASE AFD =================
-class AFD {
-    private final int[][] transiciones;
-    private final Set<Integer> estadosFinales;
-    private final Map<Character,Integer> sigma;
-
-    public AFD(int[][] transiciones, Set<Integer> estadosFinales, Map<Character,Integer> sigma) {
-        this.transiciones = transiciones;
-        this.estadosFinales = estadosFinales;
-        this.sigma = sigma;
-    }
-
-    public int[][] getTransiciones() { return transiciones; }
-    public Set<Integer> getFinalStates() { return estadosFinales; }
-    public Map<Character,Integer> getSigma() { return sigma; }
-}
-
-// ================= CLASE SIMULADOR =================
-class Simulador {
-    public static boolean simular(AFD dfa, String input) {
-        int estado = 0; // estado inicial
-        for (char c : input.toCharArray()) {
-            if (!dfa.getSigma().containsKey(c)) {
-                return false; // símbolo no válido
-            }
-            int col = dfa.getSigma().get(c);
-            estado = dfa.getTransiciones()[estado][col];
-            if (estado == -1) return false; // transición inválida
-        }
-        return dfa.getFinalStates().contains(estado);
-    }
-}
