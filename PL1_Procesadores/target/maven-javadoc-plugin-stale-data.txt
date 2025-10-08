@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'C:/Users/admou/OneDrive/Documentos/GitHub/PL1-Procesadores/PL1_Procesadores/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/admou/OneDrive/Documentos/GitHub/PL1-Procesadores/PL1_Procesadores/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'PL1_Procesadores 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'PL1_Procesadores 1.0-SNAPSHOT API'
+com.mycompany.pl1_procesadores
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\src\main\java = 1759738685193
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\allclasses-index.html = 1759915476243
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\allpackages-index.html = 1759915476248
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\element-list = 1759915476164
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\help-doc.html = 1759915476287
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\index-all.html = 1759915476273
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\index.html = 1759915476281
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\member-search-index.js = 1759915476256
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\module-search-index.js = 1759915476250
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\overview-tree.html = 1759915476227
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\package-search-index.js = 1759915476252
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\search.html = 1759915476277
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\tag-search-index.js = 1759915476257
+C:\Users\admou\OneDrive\Documentos\GitHub\PL1-Procesadores\PL1_Procesadores\target\reports\apidocs\type-search-index.js = 1759915476254
