@@ -74,11 +74,11 @@ public class PL1_Procesadores {
             try {
                 System.out.println("Seleccione caso:");
                 System.out.println("1. Identificador");
-                System.out.println("2. Cadenas con número par de 'a'");
-                System.out.println("3. Número en coma flotante");
-                System.out.println("4. Operaciones aritméticas");
-                System.out.println("5. Salir de la Simulación");
-                System.out.print("Opción: ");
+                System.out.println("2. Cadenas con numero par de 'a'");
+                System.out.println("3. Numero en coma flotante");
+                System.out.println("4. Operaciones aritmeticas");
+                System.out.println("5. Salir de la Simulacion");
+                System.out.print("Opcion: ");
 
                 int choice = sc.nextInt();
                 sc.nextLine(); // limpiar buffer
@@ -87,7 +87,7 @@ public class PL1_Procesadores {
                     System.out.println("Saliendo...");
                     break;
                 } else if (choice < 1 || choice > 5) {
-                    System.out.println("Opción no válida.");
+                    System.out.println("Opcion no valida.");
                     continue;
                 }
 
@@ -103,7 +103,7 @@ public class PL1_Procesadores {
                         if (floatDFA != null)
                             accepted = Simulador.simular(floatDFA, input);
                         else
-                            System.out.println("DFA para floats aún no implementado.");
+                            System.out.println("DFA para floats aun no implementado.");
                     }
                     case 4 -> accepted = Simulador.simular(exprDFA, input);
                 }
@@ -112,7 +112,7 @@ public class PL1_Procesadores {
                     System.out.println("Resultado: " + (accepted ? "ACEPTADA" : "RECHAZADA"));
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Error: Debe introducir un número entre 1 y 5.");
+                System.out.println("Error: Debe introducir un numero entre 1 y 5.");
                 sc.nextLine(); // limpiar entrada inválida
             }
         }
